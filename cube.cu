@@ -1,3 +1,7 @@
+// Author : Deepti Deshpande
+// File_name : cube.cu
+// Description : Computes the cube of each array element
+// compilation : nvcc -0 cube cube.cu
 #include <stdio.h>
 
 __global__ void cube(float * d_out, float * d_in){
