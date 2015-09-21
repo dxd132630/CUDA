@@ -9,7 +9,7 @@
   7. sudo yum update -y
   8.  sudo reboot
   9.  sudo yum groupinstall -y "Development tools"
-  10.  sudo yum install kernel-devel-`uname -r`
+  10.  sudo yum install kernel-devel-\`uname -r\`
   11.  wget http://us.download.nvidia.com/XFree86/Linux-x86_64/340.46/NVIDIA-Linux-x86_64-340.46.run
   12.  sudo /bin/bash ./NVIDIA-Linux-x86_64-340.46.run
   13.  nvidia-smi -q | head
